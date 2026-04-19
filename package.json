@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "build": "tsc && vite build",
     "lint": "eslint . && stylelint **/*.css",
     "lint:fix": "eslint . --fix && stylelint **/*.css --fix",
     "format": "prettier --check .",
