@@ -1,5 +1,5 @@
-import "./Button.css";
+import './Button.css'
 
 export function Button() {
-  return <button type="button"></button>;
+  return <button type='button'></button>
 }
